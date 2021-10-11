@@ -36,17 +36,17 @@ main section#card {
   width: 80%;
 }
 
-main ul {
+main section#card ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-main ul li {
+main section#card ul li {
   margin-bottom: 10px;
 }
 
-main ul li span {
+main section#card ul li span {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -55,9 +55,38 @@ main ul li span {
   margin-right: 10px;
 }
 
-main ul li strong {
+main section#card ul li strong {
   display: inline-block;
   margin-left: 40px;
   margin-top: 10px;
+}
+
+main section#primary {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+main section#primary h1 {
+  font-size: 3em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+main section#primary p {
+  font-size: 1.4em;
+}
+
+main section#primary a {
+  color: #001333;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  background-color: #FFF6BB;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */
