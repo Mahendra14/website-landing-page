@@ -1,0 +1,18 @@
+//  variables in sass
+
+// $color: #005DFF;
+
+// body{
+//     background-color: $color;
+// }
+
+// sass map - collection of variables - kinda like js object
+$colors: (
+    primary: #005DFF,
+    accent: #FFF6BB
+);
+
+body{
+    background-color: map-get($colors,primary);
+}
+
