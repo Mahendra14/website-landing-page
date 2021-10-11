@@ -17,4 +17,16 @@ body #bg {
   position: absolute;
   z-index: -1;
 }
+
+body header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-transform: uppercase;
+}
+
+main section#card {
+  background: #fff;
+}
 /*# sourceMappingURL=main.css.map */
