@@ -10,3 +10,6 @@ For scss compiler using the extension of main.scss - live compiler for sass
 [a quick tip select the watch sass under the vs code for automatic conversion of css]
 
 Pattern followed while designing is to go mobile first and then scale it up to the web ones.
+
+
+## part of fun-implementations
